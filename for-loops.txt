@@ -1,0 +1,25 @@
+For Loops Execution Order (JavaScript)
+
+For loops are helpful tools that combine the efficiency of coding shorthand with the power of JavaScript loops. The structure of a For loop looks like this:
+
+for (var i = 0; i < 10; i += 1) {
+   // do something in here
+}
+
+The modifier (i += 1) after the condition (i < 10) runs after the code in the code block runs.
+
+First, the variable is established:
+var i = 0
+
+Then, the condition is checked:
+i < 10
+(Is i less than 10?)
+
+If the condition passes, the code block runs:
+// do something in here
+
+Then, the final modifier is applied:
+i += 1
+(Adds 1 to the variable every time the loop is completed)
+
+Then, the condition is checked again. If the condition passes, the code block executes once more, the final modifier is applied yet again, and the condition is checked again. When the condition no longer passes, the loop exits.
